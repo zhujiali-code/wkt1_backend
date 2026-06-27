@@ -1,0 +1,67 @@
+# Python caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Virtual environments and local secrets
+.venv/
+venv/
+env/
+ENV/
+.env
+.env.*
+!.env.example
+
+# Runtime outputs
+tmp/
+photo/
+logs/
+*.log
+*.pid
+*.wav
+*.mp3
+*.pcm
+*.raw
+*.jpg
+*.jpeg
+*.png
+*.bin
+*.tmp
+
+# Build and packaging outputs
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+
+# Local review / scratch notes
+PROJECT_REVIEW.md
+
+# Keep curated test data
+!tests/
+!tests/data/
+!tests/data/received_wav/
+!tests/data/received_wav/*.wav
+!tests/data/received_jpg/
+!tests/data/received_jpg/*.jpg
+!tests/data/received_jpg/*.jpeg
+!tests/data/received_jpg/*.png
+!tests/data/camera/
+!tests/data/camera/*.jpg
+!tests/data/camera/*.jpeg
+!tests/data/camera/*.png
+
+# Local editor and OS files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
